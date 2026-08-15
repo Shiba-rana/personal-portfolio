@@ -10,7 +10,7 @@ import {
 
 const Resume = () => {
   const [showPdfModal, setShowPdfModal] = useState(false);
-  const resumeUrl = "/resume_shibananda.pdf";
+  const resumeUrl = "./Resume_Shibananda_Rana.pdf";
 
   return (
     <section
@@ -139,7 +139,7 @@ const Resume = () => {
 
                   <a
                     href={resumeUrl}
-                    download="Shibananda_Resume.pdf"
+                    download="Resume_Shibananda_Rana.pdf"
                     className="p-2.5 bg-red-600 hover:bg-red-500 text-white rounded-xl transition-colors text-xs flex items-center gap-2 font-semibold shadow-lg shadow-red-900/20"
                     title="Download PDF"
                   >
